@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-
-int main() {
+int main()
+{
     int n;
     unsigned long long factorial = 1;
 
@@ -11,10 +11,14 @@ int main() {
     scanf("%d", &n);
 
     // Error handling for negative numbers
-    if (n < 0) {
+    if (n < 0)
+    {
         printf("Factorial is not defined for negative numbers.\n");
-    } else {
-        for (int i = 1; i <= n; i++) {
+    }
+    else
+    {
+        for (int i = 1; i <= n; i++)
+        {
             factorial *= i;
         }
         printf("Factorial of %d = %llu\n", n, factorial);
