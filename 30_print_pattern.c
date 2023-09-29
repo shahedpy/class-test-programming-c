@@ -1,7 +1,26 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
+    int N;
+    printf("Enter the value of N: ");
+    scanf("%d", &N);
 
+    for (int i = 1; i <= N; i++)
+    {
 
-return 0;
+        for (int j = 1; j <= N - i; j++)
+        {
+            printf(" ");
+        }
+
+        for (int k = 1; k <= i; k++)
+        {
+            printf("* ");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
 }
