@@ -8,7 +8,7 @@
 | 04   | Print the first N natural numbers in reverse order                   | [View](04_natural_numbers_in_reverse_order.c)    |
 | 05   | Check if a number is prime or not                                    | [View](05_prime_number.c)                        |
 | 06   | Calculate the sum of all even numbers between 1 and N                | [View](06_sum_of_even_numbers.c)                 |
-| 07   | Print a right-angled triangle of asterisks                           | [View](07_right_angled_triangle_ of_asterisks.c) |
+| 07   | Print a right-angled triangle of asterisks                           | [View](07_right_angled_triangle_of_asterisks.c) |
 | 08   | Check if a character is a vowel or consonant                         | [View](08_vowel_or_consonant.c)                  |
 | 09   | Calculate the sum of digits of a number                              | [View](09_sum_of_digits_of_a_number.c)           |
 | 10   | Problem: Print the Fibonacci series up to N terms                    | [View](10_fibonacci.c)                           |
@@ -17,7 +17,7 @@
 | 13   | Reverse a given number                                               | [View](13_reverse_number.c)                      |
 | 14   | Check if a year is a leap year or not                                | [View](14_leap_year.c)                           |
 | 15   | Calculate the average of N numbers                                   | [View](15_calculate_avg.c)                       |
-| 16   | Print the multiplication table of a number up to N terms             | [View](16_multiplication table.c)                |
+| 16   | Print the multiplication table of a number up to N terms             | [View](16_multiplication_table.c)                |
 | 17   | Write a C program to find the average of all odd numbers from 1 to n | [View](17_avg_of_odd.c)                          |
 | 18   | Find the GCD (Greatest Common Divisor) of two numbers                | [View](18_greatest_common_divisor.c)             |
 | 19   | Calculate the factorial of a number using a loop                     | [View](19_factorial_number_using_loop.c)         |

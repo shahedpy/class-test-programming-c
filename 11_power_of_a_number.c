@@ -1,7 +1,14 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
+    int n;
 
-return 0;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    printf("%d", n * n);
+
+    return 0;
 }
