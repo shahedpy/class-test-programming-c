@@ -1,5 +1,15 @@
 #include <stdio.h>
-#include <math.h>
+
+int power(int x, int y)
+{
+    int result = 1;
+    for (int i = 0; i < y; i++)
+    {
+        result *= x;
+    }
+
+    return result;
+}
 
 int main()
 {
@@ -21,7 +31,7 @@ int main()
     while (originalNum != 0)
     {
         remainder = originalNum % 10;
-        result += pow(remainder, n);
+        result += power(remainder, n);
         originalNum /= 10;
     }
 
