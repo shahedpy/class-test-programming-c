@@ -1,7 +1,23 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
+    int n;
+    double sum = 0.0;
 
+    printf("Enter element counts: ");
+    scanf("%d", &n);
 
-return 0;
+    for (int i = 0; i < n; i++)
+    {
+        double input;
+        printf("Enter number: ");
+        scanf("%lf", &input);
+        sum += input;
+    }
+
+    double avg = sum / n;
+    printf("Average: %lf", avg);
+
+    return 0;
 }
