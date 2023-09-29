@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    char letter = 'a';
 
 
-return 0;
+    while (letter <= 'z') {
+        printf("%c- %d\n", letter, letter);
+        letter++;
+    }
+
+    return 0;
 }
